@@ -3,7 +3,11 @@ kind: Deployment
 metadata:
   name: portfolio
 spec:
+<<<<<<< HEAD
   replicas: 2
+=======
+  replicas: 3
+>>>>>>> 63ddb86 (replica update)
   selector:
     matchLabels:
       app: portfolio
